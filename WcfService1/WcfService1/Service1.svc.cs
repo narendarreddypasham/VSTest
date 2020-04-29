@@ -16,7 +16,7 @@ namespace WcfService1
         {
             return string.Format("You entered: {0}", value);
         }
-        // this change from master
+        // this change from working brach
         public CompositeType GetDataUsingDataContract(CompositeType composite)
         {
             if (composite == null)
